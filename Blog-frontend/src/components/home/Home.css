@@ -1,0 +1,28 @@
+.home {
+  text-align: center;
+  margin: 150px auto;
+}
+
+.home h3 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+}
+
+.home h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 5rem;
+}
+
+.logo {
+  background-size: contain;
+  padding-left: 0px;
+}
+
+.home p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
