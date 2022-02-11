@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const bcrypt = require("bcrypt");
-mongoose.connect(
-  "mongodb+srv://userone:userone@ictakfiles.u4z6y.mongodb.net/myblog?retryWrites=true&w=majority"
-);
+
 const UserSchema = new Schema({
   uname: {
     type: String,

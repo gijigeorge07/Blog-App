@@ -1,9 +1,5 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(
-  "mongodb+srv://userone:userone@ictakfiles.u4z6y.mongodb.net/myblog?retryWrites=true&w=majority"
-);
-
 const Schema = mongoose.Schema;
 
 var articleSchema = new Schema({
